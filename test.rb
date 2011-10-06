@@ -102,6 +102,7 @@ class TestPhpSerialize < Test::Unit::TestCase
 			assert phps.include?(serialized)
 		end
 	end
+
 end
 
 require 'test/unit/ui/console/testrunner'
